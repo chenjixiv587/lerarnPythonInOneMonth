@@ -54,5 +54,5 @@ with open("b.jpg", "ab") as f8:
 
 
 # x  只负责创建文件
-# with open("x.txt", "x") as f9:
+# with open("x.c.txt", "x") as f9:
 #     pass
