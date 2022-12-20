@@ -1,0 +1,7 @@
+files/html
+	c.html
+files/jpg
+	b.jpg
+files/txt
+	a.txt	result.txt
+
