@@ -26,7 +26,7 @@ if not os.path.exists(filePath):
     print("路径不正确，请重新选择路径")
     exit()
 os.chdir(filePath)
-filesNeedMove = os.listdir("./")
+filesNeedMove = os.listdir("/")
 
 
 def moveFiles(files):
@@ -41,7 +41,7 @@ def moveFiles(files):
 
 moveFiles(filesNeedMove)
 
-os.chdir("../")
+os.chdir("../../")
 def resultToTxt(files, resultTxt):
     filesList = os.listdir(files)
     for file in filesList:

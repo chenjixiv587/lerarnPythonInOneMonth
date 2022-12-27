@@ -13,7 +13,7 @@ if not os.path.exists(filePath):
     exit()
 os.chdir(filePath)
 # 2 遍历整个文件夹
-files = os.listdir("./")
+files = os.listdir("/")
 for file in files:
     # 3 提取出文件的后缀名
     index = file.rfind(".")
@@ -27,7 +27,7 @@ for file in files:
     shutil.move(file, extension)
 # 6 将结果写在一个 .txt 文件里
 # 通过一个函数来实现
-os.chdir("../")
+os.chdir("../../")
 
 
 def listFileToTxt(dirName, toFile):
